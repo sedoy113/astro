@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+const pageTitle = "Главная";
+const date = new Date();
+const color = 'grey';
+---
+
+<Layout title="Home">
+
+	<h1>{pageTitle}</h1>
+	<span style={{color}}>{date.toDateString()}</span>
+</Layout>
+
+
